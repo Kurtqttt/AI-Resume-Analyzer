@@ -1,87 +1,59 @@
-# Welcome to React Router!
+RESUMIND an AI-Powered Resume Analyzer
 
-A modern, production-ready template for building full-stack React applications using React Router.
+An intelligent resume screening tool built with React, React Router, and Puter.js, designed to streamline candidate evaluation. Upload resumes, analyze them using AI (powered by Sonnet), and view how well they align with specific job requirements.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+✨ Key Features
 
-## Features
+📂 Resume Upload – Seamlessly upload candidate resumes in PDF format.
+🧠 AI-Powered Analysis – Uses Sonnet to evaluate resumes based on relevance to job descriptions.
+📈 Match Scoring – Automatically generates match scores and highlights key strengths.
+🔄 Smooth Navigation – Built with React Router for fast and intuitive page transitions.
+☁️ Cloud File Handling – Uses Puter.js to securely handle and store resume files.
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+📦 Tech Stack
+Technology	                  Description
+React                        	Frontend UI framework
+React Router	                Handles client-side routing
+Puter.js	                    File upload and storage via cloud
+Sonnet 	                     AI model for resume analysis
+Tailwind CSS	               For modern and responsive UI
 
-## Getting Started
+⚙️ Getting Started
+1. Clone the Repository
 
-### Installation
+git clone https://github.com/yourusername/resume-analyzer.git
+cd resume-analyzer
 
-Install the dependencies:
+2. Install Dependencies
 
-```bash
 npm install
-```
 
-### Development
+🧪 Running the App
+Development Server
 
-Start the development server with HMR:
-
-```bash
 npm run dev
-```
 
-Your application will be available at `http://localhost:5173`.
 
-## Building for Production
+🔍 How the AI Analysis Works
 
-Create a production build:
+1. Resume PDFs are uploaded and parsed.
+2. The parsed content is compared to a job description using Sonnet’s AI capabilities.
+3. A match score is calculated and displayed with summary insights.
 
-```bash
-npm run build
-```
+💡 Potential Improvements
 
-## Deployment
+1.Dashboard for managing uploaded resumes
+2.Exportable analysis reports
+3.Integration with calendar systems for interviews
+4.Advanced keyword and skill matching
 
-### Docker Deployment
+🙏 Acknowledgements
 
-To build and run using Docker:
+React
+React Router
+Puter.js
+Sonnet
+pdf.js – for parsing PDF resumes
 
-```bash
-docker build -t my-app .
 
-# Run the container
-docker run -p 3000:3000 my-app
-```
 
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
