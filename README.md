@@ -35,7 +35,7 @@ An intelligent resume screening tool built with **React**, **React Router**, and
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/resume-analyzer.git
+git clone https://github.com/Kurtqttt/resume-analyzer.git
 cd resume-analyzer
 ```
 
